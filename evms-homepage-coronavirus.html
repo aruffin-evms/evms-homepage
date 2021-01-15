@@ -1,0 +1,108 @@
+<t4 type="media" formatter="css/*" id="95953" /><!-- styles-home.css -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 p-0">
+      <div class="hero-container">
+        <header class="hero-banner" id="covid-banner" style="background-color: #8e0000; height: 150px; width: 100vw; position: relative; z-index: 2;">
+          <div class="" id="closeBanner" style="cursor: pointer; font-size: 30px; color: white; z-index: 100; position: relative; right: -95vw; top: 80px;" onclick="function closeBanner() {
+            document.getElementById('covid-banner').style.height='0'
+            document.getElementById('closeBanner').style.visibility = 'hidden'
+            document.getElementById('covidCta').style.visibility = 'hidden'
+          }; closeBanner()">&times;</div>
+          <div class="hero-banner__cta-container" style="width: 100%; height: auto; display: flex; flex-direction: row; justify-content: center;">
+          
+            <a href="https://www.evms.edu/covid-19/" class="hero-banner__cta" id="covidCta" style="position: relative; top: 46px; color: white; font-weight: bold; z-index: 100; height: auto;">COVID-19 Advisories</a>
+          </div>
+        </header>
+        <img class="img-fluid w-100 curves" src="white-curves.svg" alt="" />
+        <div class="effect-container">
+          <div class="loop-container position-relative">
+            <video id="home-hero-video" class="img-fluid w-100" src="/uploads/style_assets/homepage/header_home.mp4"
+              poster="/uploads/style_assets/homepage/header_home_1200x532_sept.jpg" autoplay loop muted></video>
+            <button class="loop-controls loop-controls-pause" aria-controls="home-hero-video"
+              aria-label="Pause looping video"></button>
+          </div>
+        </div>
+        <div class="logo-container">
+          <img class="img-fluid logo w-100" src="https://www.evms.edu/media/evms_public/content/style_assets/refresh_2018_style_assets/images/logo_with_glow_cropped.svg"
+          alt="Eastern Virginia Medical School"/>
+        </div>
+        <div id="main-content" class="evms-tag">
+          <p>Community focus. World impact.</p>
+          <p>Improving community and global health through education, patient care and research</p>
+        </div>
+        <div class="evms-audience-silc-accordion silc-accordion--audience-menu">
+          <!-- Coronavirus -->
+          <!-- <section class="silc-accordion__section audience-menu__research">
+            <header class="silc-accordion__header">
+              <h2 class="silc-accordion__label evms-audience-label">
+                <a style="background-color: #8e0000;" onmouseover="this.style.backgroundColor='#7f0000'"
+                  onmouseout="this.style.backgroundColor='#8e0000'" href="https://www.evms.edu/covid-19/">COVID-19</a>
+                <button style="background-color: #c62828;" onmouseover="this.style.backgroundColor='#7f0000'"
+                  onmouseout="this.style.backgroundColor='#c62828'"
+                  class="silc-accordion__toggle evms-audience-cta-btn">
+                  <span class="silc-accordion__toggle-icon"></span>
+                </button>
+              </h2>
+            </header>
+            <div class="silc-accordion__content" style="background-color: #7f0000;">
+              <div class="reference">COVID-19</div>
+              <ul>
+                <li><a href="//www.evms.edu/covid-19/evms_communications/">EVMS Communications</a></li>
+                <li><a href="//www.evms.edu/covid-19/school_of_medicine/">School of Medicine</a></li>
+                <li><a href="//www.evms.edu/covid-19/school_of_health_professions/">School of Health Professions</a>
+                </li>
+                <li><a href="//www.evms.edu/covid-19/graduate_medical_education_gme/">GME</a></li>
+                <li><a href="//www.evms.edu/covid-19/faculty_and_staff_guidance/">Faculty and Staff</a></li>
+                <li><a href="//www.evms.edu/covid-19/meetings_and_events/">Events</a></li>
+            </div>
+          </section> -->
+          <section class="silc-accordion__section audience-menu__education">
+            <header class="silc-accordion__header">
+              <h2 class="silc-accordion__label evms-audience-label">
+                <a href="  //www.evms.edu/education/
+">Education</a>
+                <button class="silc-accordion__toggle evms-audience-cta-btn">
+                  <span class="silc-accordion__toggle-icon"></span>
+                </button>
+              </h2>
+            </header>
+            <div class="silc-accordion__content">
+              <div class="reference">Most Popular Links</div>
+              <ul><li><a href="//www.evms.edu/education/schools_institutes_centers_departments/">Schools, Institutes, Centers and Departments</a><li><li><a href="//www.evms.edu/education/medical_programs/">Medical Programs</a><li><li><a href="//www.evms.edu/education/masters_programs/">Master's Programs</a><li><li><a href="//www.evms.edu/education/doctoral_programs/">Doctoral Programs</a><li><li><a href="//www.evms.edu/education/gme/">Residencies and Fellowships</a><li><li><a href="//www.evms.edu/education/gme/">Graduate Medical Education</a><li><li><a href="//www.evms.edu/education/cme/">Continuing Medical Education</a><li><li><a href="//www.evms.edu/library/">Library</a><li><li><a href="//www.evms.edu/education/admissions/">Admissions</a><li><li><a href="//www.evms.edu/education/tuition_fees/">Tuition and Fees</a><li><li><a href="//www.evms.edu/education/financial_aid/">Financial Aid</a><li><li><a href="//www.evms.edu/education/resources/">Resources</a><li></ul>
+            </div>
+          </section>
+          <section class="silc-accordion__section audience-menu__patient-care">
+            <header class="silc-accordion__header">
+              <h2 class="silc-accordion__label evms-audience-label">
+                <a href="//www.evms.edu/patient_care/">Patient Care</a>
+                <button class="silc-accordion__toggle evms-audience-cta-btn">
+                  <span class="silc-accordion__toggle-icon"></span>
+                </button>
+              </h2>
+            </header>
+            <div class="silc-accordion__content">
+              <div class="reference">Most Popular Links</div>
+              <ul><li><a href="//www.evms.edu/patient_care/find_a_provider/">Physicians and Providers</a></li><li><a href="//www.evms.edu/patient_care/specialties/">Specialties</a></li><li><a href="https://www.evms.edu/patient_care/#map-box">Locations</a></li><li><a href="//www.evms.edu/patient_care/patient_portal/">Patient Portal</a></li><li><a href="//www.evms.edu/patient_care/compliance_program/">Compliance Program</a></li></ul>
+            </div>
+          </section>
+          <section class="silc-accordion__section audience-menu__research">
+            <header class="silc-accordion__header">
+              <h2 class="silc-accordion__label evms-audience-label">
+                <a href="//www.evms.edu/research/">Research</a>
+                <button class="silc-accordion__toggle evms-audience-cta-btn">
+                  <span class="silc-accordion__toggle-icon"></span>
+                </button>
+              </h2>
+            </header>
+            <div class="silc-accordion__content">
+              <div class="reference">Most Popular Links</div>
+              <ul><li><a href="//www.evms.edu/research/centers_institutes_departments/">Institutes, Centers &amp; Departments</a></li><li><a href="//www.evms.edu/directory/">Researcher Profiles</a></li><li><a href="//www.evms.edu/research/current_clinical_trials/">Current Clinical Trials</a></li><li><a href="//www.evms.edu/research/resources_services/">Research Core Services</a></li><li><a href="https://giving.evms.edu" target="_blank">Make a Gift</a></li><li><a href="//www.evms.edu/research/human_subjects_protection/">Institutional Review Board and Human Subjects' Protection</a></li><li><a href="//www.evms.edu/research/research_administration/">Administration</a></li><li><a href="//www.evms.edu/research/research_administration/evms_research/funding_for_evms_faculty_and_students/">Funding and Resources</a></li><li><a href="//www.evms.edu/library/">Library</a></li></ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<t4 type="media" formatter="javascript/*" id="96106" /><!-- scrollpos-styler.custom.js  -->

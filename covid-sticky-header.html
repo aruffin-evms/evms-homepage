@@ -1,0 +1,16 @@
+<header class="hero-banner" id="covid-banner"
+  style="background-color: #8e0000; margin-top: 82px; height: 50px; width: 100vw; position: fixed; top: 0; z-index: 1;">
+  <div id="closeBanner"
+    style="cursor: pointer; font-size: 30px; color: white; z-index: 100; position: relative; right: -95vw; top: 0;"
+    onclick="function closeBanner() {
+          document.getElementById('covid-banner').style.height='0'
+          document.getElementById('closeBanner').style.visibility = 'hidden'
+          document.getElementById('covidCta').style.visibility = 'hidden'
+          document.getElementById('evmsHeader').style.marginTop = '0px'
+        }; closeBanner()">&times;</div>
+  <div class="hero-banner__cta-container"
+    style="width: 100%; height: auto; display: flex; flex-direction: row; justify-content: center;">
+    <a href="https://www.evms.edu/covid-19/" class="hero-banner__cta" id="covidCta"
+      style="position: relative; top: -35px; color: white; font-weight: bold; z-index: 1; height: auto;">{{ title }}</a>
+  </div>
+</header>
